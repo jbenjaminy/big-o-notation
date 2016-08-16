@@ -1,3 +1,5 @@
+// O( log(n) )
+
 console.time('counter');
 // Finds the nth element in an array
 var findNthElement = function(array, n) {
@@ -10,7 +12,7 @@ var findNthElement = function(array, n) {
     // Binary search: 'Logarithmic Time' - O(log(n))
     // (very long inputs don't take much longer than fairly short inputs)
     var middle = Math.floor(array.length / 2);
-    // Recursive calls: 
+    // Recursive calls:
     if (n < middle) {
         return findNthElement(array.slice(0, middle), n);
     }
@@ -1119,7 +1121,7 @@ findNthElement(
   // 997,
   // 998,
   // 999,
-  // 1000 
+  // 1000
   ] , 2);
 console.timeEnd('counter');
 }
