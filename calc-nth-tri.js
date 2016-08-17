@@ -13,7 +13,7 @@ var triangleNumbers = function(n) {
 };
 
 // Test data
-for(var i = 1; i <= 18; i++) {
+for(var i = 1; i <= 10; i++) {
   triangleNumbers(i);
   console.log(i, counter);
   counter = 0;

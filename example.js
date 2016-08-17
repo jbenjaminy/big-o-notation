@@ -29,3 +29,4 @@ for(var i = 1; i <= 1000; i++) {
   counter = 0
   //console.timeEnd(i);
 }
+
